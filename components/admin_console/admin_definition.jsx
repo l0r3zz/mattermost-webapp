@@ -4251,6 +4251,15 @@ const AdminDefinition = {
                     },
                     {
                         type: Constants.SettingsTypes.TYPE_BOOL,
+                        key: 'ExperimentalSettings.ExperimentalEnableEECOMmode',
+                        label: t('admin.experimental.experimentalEnableEECOMmode.title'),
+                        label_default: 'Enable EECOM:',
+                        help_text: t('admin.experimental.experimentalEnableEECOMmode.desc'),
+                        help_text_default: 'When true, all features of the EECOM fork are enabled.',
+                        help_text_markdown: true,
+                    },
+                    {
+                        type: Constants.SettingsTypes.TYPE_BOOL,
                         key: 'ServiceSettings.EnableChannelViewedMessages',
                         label: t('admin.experimental.enableChannelViewedMessages.title'),
                         label_default: 'Enable Channel Viewed WebSocket Messages:',
